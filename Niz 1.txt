@@ -14,5 +14,5 @@ begin
         if c[i]>0 then t:=t+1;
     end;
     writeln ('Pozitivnih ima:', t);
-    for i:=1 to n do writeln (c[i]:7:3);
+    for i:=1 to n do writeln (c[i]:7:2);
 end.
